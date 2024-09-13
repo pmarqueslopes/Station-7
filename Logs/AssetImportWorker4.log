@@ -1,0 +1,315 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.17f1 (efb8f635e7b1) revision 15710454'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'pt' Physical Memory: 16292 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/Pedro/Documents/Estacao7
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+58507
+Successfully changed project path to: C:/Users/Pedro/Documents/Estacao7
+C:/Users/Pedro/Documents/Estacao7
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 35.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.17f1 (efb8f635e7b1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Pedro/Documents/Estacao7/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Vendor:   NVIDIA
+    VRAM:     5979 MB
+    Driver:   31.0.15.2698
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.17f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013898 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 42.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.812 seconds
+Domain Reload Profiling:
+	ReloadAssembly (813ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (568ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (137ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (331ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (101ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (43ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003619 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.053 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1054ms)
+		BeginReloadAssembly (240ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (135ms)
+		EndReloadAssembly (688ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (196ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (327ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1718 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (55.7 KB). Loaded Objects now: 2193.
+Memory consumption went from 148.8 MB to 148.8 MB.
+Total: 2.987500 ms (FindLiveObjects: 0.159600 ms CreateObjectMapping: 0.065700 ms MarkObjects: 2.674800 ms  DeleteObjects: 0.085900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 136705.897851 seconds.
+  path: Assets/Modelos e prefabs/restos.fbx
+  artifactKey: Guid(e010d05fe97484143a22522a7d5aad15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos e prefabs/restos.fbx using Guid(e010d05fe97484143a22522a7d5aad15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868c6609916bdf41de88f108c39b2026') in 0.184392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.359591 seconds.
+  path: Assets/Modelos e prefabs/cone 1.fbx
+  artifactKey: Guid(ce6561d7db24c8c419f87e2b21efd07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos e prefabs/cone 1.fbx using Guid(ce6561d7db24c8c419f87e2b21efd07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097d3b6884bb7255325f2b3e5fc5aa50') in 0.022510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.258297 seconds.
+  path: Assets/Modelos e prefabs/Novos/Estruturas/LavaJato.G.fbx
+  artifactKey: Guid(4aa7d509f6323294486ee7d50424177b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos e prefabs/Novos/Estruturas/LavaJato.G.fbx using Guid(4aa7d509f6323294486ee7d50424177b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2598f815b5e9974c75737c6e51bae316') in 0.029010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.442705 seconds.
+  path: Assets/Modelos e prefabs/Novos/Estruturas/LavaJato.P.fbx
+  artifactKey: Guid(2b4b972bfefeb4843b029116794d4560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos e prefabs/Novos/Estruturas/LavaJato.P.fbx using Guid(2b4b972bfefeb4843b029116794d4560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f93c74237202fd4ef66cdaba711435') in 0.030748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021297 seconds.
+  path: Assets/Modelos e prefabs/Novos/Estruturas/Loja.G.fbx
+  artifactKey: Guid(538f15595440b914fbd237bf3b7b416f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos e prefabs/Novos/Estruturas/Loja.G.fbx using Guid(538f15595440b914fbd237bf3b7b416f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657aec8415408bcb0deb3228013899c4') in 0.038248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.005408 seconds.
+  path: Assets/fbxCarros/CarSuv.red.fbx
+  artifactKey: Guid(14730ebe0c7552743aa70c9f05aa8715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxCarros/CarSuv.red.fbx using Guid(14730ebe0c7552743aa70c9f05aa8715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55cedf92a8c102317735f11192fca895') in 0.026863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/fbxCarros/CarSuv.pink.fbx
+  artifactKey: Guid(0b2c72a0ce760174e812c40562187796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxCarros/CarSuv.pink.fbx using Guid(0b2c72a0ce760174e812c40562187796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a2fd2f6b32d1a531b2c02a90c9ad7b') in 0.026025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/fbxCarros/CarSuv.orange.fbx
+  artifactKey: Guid(ec0fc386651f36c4ba887226c85ffc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxCarros/CarSuv.orange.fbx using Guid(ec0fc386651f36c4ba887226c85ffc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd841cb952bfa6ec767c7d8215c9497') in 0.024040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017804 seconds.
+  path: Assets/fbxCarros/CarSuv.black.fbx
+  artifactKey: Guid(19c7770b657122e4b8a5c2448c6175e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxCarros/CarSuv.black.fbx using Guid(19c7770b657122e4b8a5c2448c6175e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1684c52a5e9659668ff3db9ea1da8bab') in 0.029195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.470586 seconds.
+  path: Assets/fbxCarros/CarSport.red.fbx
+  artifactKey: Guid(25b97ac8dcb63bd428dcd7abbf4cbb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxCarros/CarSport.red.fbx using Guid(25b97ac8dcb63bd428dcd7abbf4cbb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287fe4b3ac8d6575668c64c0da841bab') in 0.020994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/fbxCarros/CarSport.purple.fbx
+  artifactKey: Guid(c22e78f1402c67f4ca09c3e27b4959ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxCarros/CarSport.purple.fbx using Guid(c22e78f1402c67f4ca09c3e27b4959ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4aaae735283ec96451f70eacec22717') in 0.021411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021555 seconds.
+  path: Assets/fbxCarros/CarSport.green.fbx
+  artifactKey: Guid(43ce30bd5dda03741a21449b0d3aad03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fbxCarros/CarSport.green.fbx using Guid(43ce30bd5dda03741a21449b0d3aad03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5644e194f60e78fa66413d97ab02da40') in 0.016479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.528721 seconds.
+  path: Assets/Modelos e prefabs/Novos/Estruturas/Loja.P.fbx
+  artifactKey: Guid(eac2297fc78eed94f9cd93d5fabd762c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos e prefabs/Novos/Estruturas/Loja.P.fbx using Guid(eac2297fc78eed94f9cd93d5fabd762c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45949e78c31a593f2e4695d0ac4ffb34') in 0.031485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021503 seconds.
+  path: Assets/Modelos e prefabs/Novos/Estruturas/Oficina_G.fbx
+  artifactKey: Guid(e25da7cdac74b1d4b8598511de9dcdae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos e prefabs/Novos/Estruturas/Oficina_G.fbx using Guid(e25da7cdac74b1d4b8598511de9dcdae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e439e9c28bab0df57babdfc48b4c8d9') in 0.029756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MeshCarros/oficina_p.fbx
+  artifactKey: Guid(980fec446fd6f6d46af21682cc50557a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshCarros/oficina_p.fbx using Guid(980fec446fd6f6d46af21682cc50557a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37500ac42f06ff5d164932f7d91ea88d') in 0.031987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.912902 seconds.
+  path: Assets/Materials/moedas.material.mat
+  artifactKey: Guid(60705ce398dc11c4180d36906dbb0104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/moedas.material.mat using Guid(60705ce398dc11c4180d36906dbb0104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8cb0d6cba6f9ca65c4a43fe003a170') in 0.017297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 204.367940 seconds.
+  path: Assets/Modelos e prefabs/placa.fbx
+  artifactKey: Guid(4de3d493e4371b240882c4ee54c0c7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos e prefabs/placa.fbx using Guid(4de3d493e4371b240882c4ee54c0c7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117b933ab52f0caffa808d40d7819739') in 0.071184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.898682 seconds.
+  path: Assets/Modelos e prefabs/ConeNovo.fbx
+  artifactKey: Guid(debae0e789acc7c4988ff99671bae192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos e prefabs/ConeNovo.fbx using Guid(debae0e789acc7c4988ff99671bae192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56bf2ccf89ae15ec107d1a3f23ed0485') in 0.025052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 123.062241 seconds.
+  path: Assets/Modelos e prefabs/ConeNovo.fbx
+  artifactKey: Guid(debae0e789acc7c4988ff99671bae192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos e prefabs/ConeNovo.fbx using Guid(debae0e789acc7c4988ff99671bae192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44237061272ec2363982e347b4922e18') in 0.020312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.475718 seconds.
+  path: Assets/Modelos e prefabs/Placa.fbx
+  artifactKey: Guid(4de3d493e4371b240882c4ee54c0c7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos e prefabs/Placa.fbx using Guid(4de3d493e4371b240882c4ee54c0c7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1b68a24a37a88356f9933b51c6a1e3') in 0.045390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.952160 seconds.
+  path: Assets/Modelos e prefabs/Prefabs
+  artifactKey: Guid(0b7c6d310aa24204bac6b2472b9334ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos e prefabs/Prefabs using Guid(0b7c6d310aa24204bac6b2472b9334ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd088b26fdd14ba97a960a439b83b071') in 0.001853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050695 seconds.
+  path: Assets/Modelos e prefabs/Prefabs/Cone.prefab
+  artifactKey: Guid(379c27e07222b394eb56df901ed0db79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos e prefabs/Prefabs/Cone.prefab using Guid(379c27e07222b394eb56df901ed0db79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6f6e4d99322c8bafe7138410118255') in 0.010468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.980328 seconds.
+  path: Assets/Modelos e prefabs/Prefabs/ConeNovo.prefab
+  artifactKey: Guid(612a81a2126726a458118393ce5b213a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos e prefabs/Prefabs/ConeNovo.prefab using Guid(612a81a2126726a458118393ce5b213a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a532679a439db9bc5a82cdee8a1bc1b') in 0.011813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.095771 seconds.
+  path: Assets/Modelos e prefabs/Prefabs/placa.prefab
+  artifactKey: Guid(c98601a5115fb014b989ed128be13818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos e prefabs/Prefabs/placa.prefab using Guid(c98601a5115fb014b989ed128be13818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28f7fca0bafc1d76d660c4b943b40e9') in 0.012126 seconds 
