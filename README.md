@@ -3,7 +3,7 @@
 ---
 [EN_US]
 
-My First Unity
+My First Unity Group project
 
 Station 7 is a management simulator where the player oversees an area with various services. Cars with different needs pass through the area, and when a service is completed, the player earns money, which can be used to unlock new services and upgrade the existing ones.
 
